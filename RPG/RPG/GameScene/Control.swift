@@ -13,18 +13,17 @@ extension GameScene {
     func controlBallAngle(degree: CGFloat) {
         // 4방향 지원과 8방향을 지원하는 게임은 준비해야하는 분량이 차이가 크다
         if degree >= -45 && degree < 45 {
-            print("player's current direction is EAST")
+            player.currentDirection = Direction.E
         } else if degree >= 45 && degree < 135 {
-            print("player's current direction is NORTH")
+            player.currentDirection = Direction.N
         } else if degree >= 135 && degree < 180 {
-            print("player's current direction is WEST")
+            player.currentDirection = Direction.W
         } else if degree >= -180 && degree < -135 {
-            print("player's current direction is WEST")
+            player.currentDirection = Direction.W
         } else if degree >= -135 && degree < -45 {
-            print("player's current direction is SOUTH")
+            player.currentDirection = Direction.S
         }
     }
-    
     // Control Ball Angle_End
     
     // MARK: - Touch
@@ -86,6 +85,7 @@ extension GameScene {
                 moveCenterAction.timingMode = .easeOut
                 // 컨트롤볼이 제자리로 돌아오게 됨
                 controlBall.run(moveCenterAction)
+                player.currentDirection = Direction.ST
             }
         }
     }

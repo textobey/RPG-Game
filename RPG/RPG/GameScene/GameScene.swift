@@ -10,13 +10,14 @@ import GameplayKit
 
 class GameScene: SKScene {
     
+    // MARK: - Variable
     // SKSpriteNode: 게임에서 볼수있는 가장 중요한 요소(케릭터, 나무, 돌, 집, 드롭템 등)
     
     /// 터치포인트
     //var touchPoint = CGPoint()
     
     /// 플레이어
-    let player = SKSpriteNode(imageNamed: "RedSwan")
+    let player = Character(imageNamed: "RedSwan")
     /// 컨트롤베이스
     let controlBase = SKSpriteNode(imageNamed: "ControlBase")
     /// 컨트롤볼
