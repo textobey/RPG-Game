@@ -37,10 +37,10 @@ extension GameScene {
                 controlBall.position = controlBase.position
             } else {
                 if attackButtonBase.frame.contains(location) {
-                    print("Attack!")
-                } else if itemButton.frame.contains(location) {
-                    print("Item!")
-                } else if skillButton.frame.contains(location) {
+                    player.attackMelee()
+                } else if itemButtonBase.frame.contains(location) {
+                    player.functionItem()
+                } else if skillButtonBase.frame.contains(location) {
                     print("Skill!")
                 }
             }
