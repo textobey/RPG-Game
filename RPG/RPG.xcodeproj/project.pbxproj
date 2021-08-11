@@ -16,6 +16,8 @@
 		A603684C26A5590D0089EAE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A603684B26A5590D0089EAE3 /* Assets.xcassets */; };
 		A603685626A55FEA0089EAE3 /* Control.swift in Sources */ = {isa = PBXBuildFile; fileRef = A603685526A55FEA0089EAE3 /* Control.swift */; };
 		A603685826A562BE0089EAE3 /* Update.swift in Sources */ = {isa = PBXBuildFile; fileRef = A603685726A562BE0089EAE3 /* Update.swift */; };
+		A62E384626C3FB0300AE28B6 /* Attack_Meteor.atlas in Resources */ = {isa = PBXBuildFile; fileRef = A62E384526C3FB0300AE28B6 /* Attack_Meteor.atlas */; };
+		A62E384826C3FB2300AE28B6 /* Meteor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A62E384726C3FB2300AE28B6 /* Meteor.swift */; };
 		A6586AF326BEC40F0021B547 /* RedSwanMoveS.atlas in Resources */ = {isa = PBXBuildFile; fileRef = A6586AEF26BEC40F0021B547 /* RedSwanMoveS.atlas */; };
 		A6586AF426BEC40F0021B547 /* RedSwanMoveW.atlas in Resources */ = {isa = PBXBuildFile; fileRef = A6586AF026BEC40F0021B547 /* RedSwanMoveW.atlas */; };
 		A6586AF526BEC40F0021B547 /* RedSwanMoveN.atlas in Resources */ = {isa = PBXBuildFile; fileRef = A6586AF126BEC40F0021B547 /* RedSwanMoveN.atlas */; };
@@ -40,6 +42,8 @@
 		A603684D26A5590D0089EAE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A603685526A55FEA0089EAE3 /* Control.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Control.swift; sourceTree = "<group>"; };
 		A603685726A562BE0089EAE3 /* Update.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Update.swift; sourceTree = "<group>"; };
+		A62E384526C3FB0300AE28B6 /* Attack_Meteor.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Attack_Meteor.atlas; sourceTree = "<group>"; };
+		A62E384726C3FB2300AE28B6 /* Meteor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meteor.swift; sourceTree = "<group>"; };
 		A6586AEF26BEC40F0021B547 /* RedSwanMoveS.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = RedSwanMoveS.atlas; sourceTree = "<group>"; };
 		A6586AF026BEC40F0021B547 /* RedSwanMoveW.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = RedSwanMoveW.atlas; sourceTree = "<group>"; };
 		A6586AF126BEC40F0021B547 /* RedSwanMoveN.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = RedSwanMoveN.atlas; sourceTree = "<group>"; };
@@ -137,6 +141,7 @@
 		A6586AF826BFAD570021B547 /* Attack */ = {
 			isa = PBXGroup;
 			children = (
+				A62E384526C3FB0300AE28B6 /* Attack_Meteor.atlas */,
 				A6586AF926BFAD8F0021B547 /* Attack_Melee.atlas */,
 			);
 			name = Attack;
@@ -146,7 +151,7 @@
 			isa = PBXGroup;
 			children = (
 				A6586AFC26BFAEF10021B547 /* Melee.swift */,
-				A6586AFE26BFB1DA0021B547 /* Item.swift */,
+				A62E384726C3FB2300AE28B6 /* Meteor.swift */,
 			);
 			path = Attack;
 			sourceTree = "<group>";
@@ -174,6 +179,7 @@
 			isa = PBXGroup;
 			children = (
 				A6DE430A26B6DE720091EB7F /* Move.swift */,
+				A6586AFE26BFB1DA0021B547 /* Item.swift */,
 			);
 			path = Function;
 			sourceTree = "<group>";
@@ -238,6 +244,7 @@
 				A603684A26A5590C0089EAE3 /* Main.storyboard in Resources */,
 				A6586AF426BEC40F0021B547 /* RedSwanMoveW.atlas in Resources */,
 				A6586AF326BEC40F0021B547 /* RedSwanMoveS.atlas in Resources */,
+				A62E384626C3FB0300AE28B6 /* Attack_Meteor.atlas in Resources */,
 				A603684126A5590C0089EAE3 /* GameScene.sks in Resources */,
 				A6586AF526BEC40F0021B547 /* RedSwanMoveN.atlas in Resources */,
 				A6586AF626BEC40F0021B547 /* RedSwanMoveE.atlas in Resources */,
@@ -255,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A603684526A5590C0089EAE3 /* GameScene.swift in Sources */,
+				A62E384826C3FB2300AE28B6 /* Meteor.swift in Sources */,
 				A603685626A55FEA0089EAE3 /* Control.swift in Sources */,
 				A6DE430826B6DD6B0091EB7F /* Share.swift in Sources */,
 				A603685826A562BE0089EAE3 /* Update.swift in Sources */,

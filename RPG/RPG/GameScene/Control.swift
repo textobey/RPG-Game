@@ -41,7 +41,7 @@ extension GameScene {
                 } else if itemButtonBase.frame.contains(location) {
                     player.functionItem()
                 } else if skillButtonBase.frame.contains(location) {
-                    print("Skill!")
+                    player.attackMeteor()
                 }
             }
         }

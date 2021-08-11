@@ -6,9 +6,14 @@
 //
 
 import Foundation
+import SpriteKit
+
+// MARK: - Variable
+var sharedScene = GameScene()
+let localCamera = SKCameraNode()
+// End Variable
 
 // MARK: - Enumeration
-
 // Direction //
 enum Direction {
     case E, W, S, N, ST

@@ -34,6 +34,11 @@ class GameScene: SKScene {
     
         
     override func didMove(to view: SKView) {
+        sharedScene = self
+        
+        // Local Camera //
+        self.camera = localCamera
+        self.addChild(localCamera)
         
         // Controller //
         
