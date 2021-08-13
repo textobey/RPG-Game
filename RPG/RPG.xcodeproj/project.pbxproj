@@ -18,6 +18,7 @@
 		A603685826A562BE0089EAE3 /* Update.swift in Sources */ = {isa = PBXBuildFile; fileRef = A603685726A562BE0089EAE3 /* Update.swift */; };
 		A62E384626C3FB0300AE28B6 /* Attack_Meteor.atlas in Resources */ = {isa = PBXBuildFile; fileRef = A62E384526C3FB0300AE28B6 /* Attack_Meteor.atlas */; };
 		A62E384826C3FB2300AE28B6 /* Meteor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A62E384726C3FB2300AE28B6 /* Meteor.swift */; };
+		A62E384A26C6573F00AE28B6 /* Delay.swift in Sources */ = {isa = PBXBuildFile; fileRef = A62E384926C6573F00AE28B6 /* Delay.swift */; };
 		A6586AF326BEC40F0021B547 /* RedSwanMoveS.atlas in Resources */ = {isa = PBXBuildFile; fileRef = A6586AEF26BEC40F0021B547 /* RedSwanMoveS.atlas */; };
 		A6586AF426BEC40F0021B547 /* RedSwanMoveW.atlas in Resources */ = {isa = PBXBuildFile; fileRef = A6586AF026BEC40F0021B547 /* RedSwanMoveW.atlas */; };
 		A6586AF526BEC40F0021B547 /* RedSwanMoveN.atlas in Resources */ = {isa = PBXBuildFile; fileRef = A6586AF126BEC40F0021B547 /* RedSwanMoveN.atlas */; };
@@ -44,6 +45,7 @@
 		A603685726A562BE0089EAE3 /* Update.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Update.swift; sourceTree = "<group>"; };
 		A62E384526C3FB0300AE28B6 /* Attack_Meteor.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Attack_Meteor.atlas; sourceTree = "<group>"; };
 		A62E384726C3FB2300AE28B6 /* Meteor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meteor.swift; sourceTree = "<group>"; };
+		A62E384926C6573F00AE28B6 /* Delay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Delay.swift; sourceTree = "<group>"; };
 		A6586AEF26BEC40F0021B547 /* RedSwanMoveS.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = RedSwanMoveS.atlas; sourceTree = "<group>"; };
 		A6586AF026BEC40F0021B547 /* RedSwanMoveW.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = RedSwanMoveW.atlas; sourceTree = "<group>"; };
 		A6586AF126BEC40F0021B547 /* RedSwanMoveN.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = RedSwanMoveN.atlas; sourceTree = "<group>"; };
@@ -180,6 +182,7 @@
 			children = (
 				A6DE430A26B6DE720091EB7F /* Move.swift */,
 				A6586AFE26BFB1DA0021B547 /* Item.swift */,
+				A62E384926C6573F00AE28B6 /* Delay.swift */,
 			);
 			path = Function;
 			sourceTree = "<group>";
@@ -270,6 +273,7 @@
 				A6586AFF26BFB1DA0021B547 /* Item.swift in Sources */,
 				A6DE430B26B6DE720091EB7F /* Move.swift in Sources */,
 				A6DE430526B6C07E0091EB7F /* Character.swift in Sources */,
+				A62E384A26C6573F00AE28B6 /* Delay.swift in Sources */,
 				A603684726A5590C0089EAE3 /* GameViewController.swift in Sources */,
 				A603683F26A5590C0089EAE3 /* AppDelegate.swift in Sources */,
 			);

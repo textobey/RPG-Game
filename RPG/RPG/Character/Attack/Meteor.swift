@@ -40,6 +40,8 @@ extension Character {
             let removeAction = SKAction.run { attackBody.removeFromParent() }
             attackBody.run(SKAction.sequence([fadeInAction, fallAction, waitAction, shakeAction, removeAction]))
         }
+        // Delay //
+        functionDelayEffect(button: "SkillButton", delay: CGFloat(10))
     }
     
     func attackMeteorAnimation() {
