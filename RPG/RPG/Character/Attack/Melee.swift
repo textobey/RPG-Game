@@ -24,7 +24,18 @@ extension Character {
         attackBody.run(SKAction.sequence([waitAction, removeAction]))
         
         // Delay //
+        let moveWaitAction = SKAction.wait(forDuration: 0.2)
+        let moveDelayAction = SKAction.run { self.moveDelayIs = false }
+        let attackWaitAction = SKAction.wait(forDuration: 0.5)
+        let attackDelayAction = SKAction.run { self.attackDelayIs = false }
+        
         functionDelayEffect(button: "AttackButton", delay: CGFloat(0.5))
+        moveDelayIs = true
+        attackDelayIs = true
+        // 0.2초 기다린 후 다시 이동 할수있게하는 작업
+        self.run(SKAction.sequence([moveWaitAction, moveDelayAction]))
+        // 0.5초 기다린 후 다시 공격 할수있게하는 작업
+        self.run(SKAction.sequence([attackWaitAction, attackDelayAction]))
     }
     // 케릭터의 동서남북 근접 공격 애니메이션 실행
     func attackMeleeAnimation(attackBody: Character) {

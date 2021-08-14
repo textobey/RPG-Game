@@ -97,6 +97,9 @@ extension Character {
                 }
                 lastDirection = currentDirection
         }
-        self.position = CGPoint(x: self.position.x + speedX, y: self.position.y + speedY)
+        // moveDelay가 false인 상태인 경우에만 움직일수있도록 허용
+        if moveDelayIs != true {
+            self.position = CGPoint(x: self.position.x + speedX, y: self.position.y + speedY)
+        }
     }
 }

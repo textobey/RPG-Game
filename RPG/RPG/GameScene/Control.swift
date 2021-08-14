@@ -37,11 +37,15 @@ extension GameScene {
                 controlBall.position = controlBase.position
             } else {
                 if attackButtonBase.frame.contains(location) {
-                    player.attackMelee()
+                    if player.attackDelayIs != true {
+                        player.attackMelee()
+                    }
                 } else if itemButtonBase.frame.contains(location) {
                     player.functionItem()
                 } else if skillButtonBase.frame.contains(location) {
-                    player.attackMeteor()
+                    if player.skillDelayIs != true {
+                        player.attackMeteor()
+                    }
                 }
             }
         }

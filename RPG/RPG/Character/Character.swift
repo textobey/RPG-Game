@@ -22,5 +22,10 @@ class Character: SKSpriteNode {
     // Move //
     var speedX = CGFloat()
     var speedY = CGFloat()
+    
+    // Mode //
+    var moveDelayIs: Bool = false
+    var attackDelayIs: Bool = false
+    var skillDelayIs: Bool = false
     // Variable End
 }
