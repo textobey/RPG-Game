@@ -12,12 +12,10 @@ class GameScene: SKScene {
     
     // MARK: - Variable
     // SKSpriteNode: 게임에서 볼수있는 가장 중요한 요소(케릭터, 나무, 돌, 집, 드롭템 등)
-    
-    /// 터치포인트
-    //var touchPoint = CGPoint()
-    
+    /// 게임데이터
+    var gameData = NSMutableDictionary()
     /// 플레이어
-    let player = Character(imageNamed: "RedSwan")
+    var player = Character()
     /// 컨트롤베이스
     let controlBase = SKSpriteNode(imageNamed: "ControlBase")
     /// 컨트롤볼
@@ -40,13 +38,12 @@ class GameScene: SKScene {
         self.camera = localCamera
         self.addChild(localCamera)
         
+        // Data //
+        let path = Bundle.main.path(forResource: "GameData", ofType: "plist")
+        gameData = NSMutableDictionary(contentsOfFile: path!)!
+        dataPlayer()
+        
         // Controller //
-        
-        // 컨트롤관련 UI보다 위에 위치 하지 않도록함
-        player.zPosition = 10
-        player.position = controlBase.position
-        addChild(player)
-        
         // 컨트롤 베이스의 위치 지정과 scene에서의 우선 순위를 지정함, 추가로 player와 겹쳐 표시될때를 고려하여 alpha값 부여
         controlBase.position = CGPoint(x: -500, y: -200)
         controlBase.zPosition = 100

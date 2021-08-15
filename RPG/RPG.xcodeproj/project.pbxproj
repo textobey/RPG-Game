@@ -16,6 +16,8 @@
 		A603684C26A5590D0089EAE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A603684B26A5590D0089EAE3 /* Assets.xcassets */; };
 		A603685626A55FEA0089EAE3 /* Control.swift in Sources */ = {isa = PBXBuildFile; fileRef = A603685526A55FEA0089EAE3 /* Control.swift */; };
 		A603685826A562BE0089EAE3 /* Update.swift in Sources */ = {isa = PBXBuildFile; fileRef = A603685726A562BE0089EAE3 /* Update.swift */; };
+		A607E63726C8F13E005FFBE8 /* GameData.plist in Resources */ = {isa = PBXBuildFile; fileRef = A607E63626C8F13E005FFBE8 /* GameData.plist */; };
+		A607E63A26C8F249005FFBE8 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = A607E63926C8F249005FFBE8 /* Data.swift */; };
 		A62E384626C3FB0300AE28B6 /* Attack_Meteor.atlas in Resources */ = {isa = PBXBuildFile; fileRef = A62E384526C3FB0300AE28B6 /* Attack_Meteor.atlas */; };
 		A62E384826C3FB2300AE28B6 /* Meteor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A62E384726C3FB2300AE28B6 /* Meteor.swift */; };
 		A62E384A26C6573F00AE28B6 /* Delay.swift in Sources */ = {isa = PBXBuildFile; fileRef = A62E384926C6573F00AE28B6 /* Delay.swift */; };
@@ -43,6 +45,8 @@
 		A603684D26A5590D0089EAE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A603685526A55FEA0089EAE3 /* Control.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Control.swift; sourceTree = "<group>"; };
 		A603685726A562BE0089EAE3 /* Update.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Update.swift; sourceTree = "<group>"; };
+		A607E63626C8F13E005FFBE8 /* GameData.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = GameData.plist; sourceTree = "<group>"; };
+		A607E63926C8F249005FFBE8 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		A62E384526C3FB0300AE28B6 /* Attack_Meteor.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Attack_Meteor.atlas; sourceTree = "<group>"; };
 		A62E384726C3FB2300AE28B6 /* Meteor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meteor.swift; sourceTree = "<group>"; };
 		A62E384926C6573F00AE28B6 /* Delay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Delay.swift; sourceTree = "<group>"; };
@@ -116,8 +120,17 @@
 				A603684426A5590C0089EAE3 /* GameScene.swift */,
 				A603685526A55FEA0089EAE3 /* Control.swift */,
 				A603685726A562BE0089EAE3 /* Update.swift */,
+				A607E63826C8F23E005FFBE8 /* Function */,
 			);
 			path = GameScene;
+			sourceTree = "<group>";
+		};
+		A607E63826C8F23E005FFBE8 /* Function */ = {
+			isa = PBXGroup;
+			children = (
+				A607E63926C8F249005FFBE8 /* Data.swift */,
+			);
+			path = Function;
 			sourceTree = "<group>";
 		};
 		A6586AEE26BEC3FD0021B547 /* Image */ = {
@@ -173,6 +186,7 @@
 			children = (
 				A603684226A5590C0089EAE3 /* Actions.sks */,
 				A6DE430726B6DD6B0091EB7F /* Share.swift */,
+				A607E63626C8F13E005FFBE8 /* GameData.plist */,
 			);
 			path = "Supporting File";
 			sourceTree = "<group>";
@@ -253,6 +267,7 @@
 				A6586AF626BEC40F0021B547 /* RedSwanMoveE.atlas in Resources */,
 				A6586AFA26BFAD8F0021B547 /* Attack_Melee.atlas in Resources */,
 				A603684C26A5590D0089EAE3 /* Assets.xcassets in Resources */,
+				A607E63726C8F13E005FFBE8 /* GameData.plist in Resources */,
 				A603684326A5590C0089EAE3 /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,6 +287,7 @@
 				A6586AFD26BFAEF10021B547 /* Melee.swift in Sources */,
 				A6586AFF26BFB1DA0021B547 /* Item.swift in Sources */,
 				A6DE430B26B6DE720091EB7F /* Move.swift in Sources */,
+				A607E63A26C8F249005FFBE8 /* Data.swift in Sources */,
 				A6DE430526B6C07E0091EB7F /* Character.swift in Sources */,
 				A62E384A26C6573F00AE28B6 /* Delay.swift in Sources */,
 				A603684726A5590C0089EAE3 /* GameViewController.swift in Sources */,

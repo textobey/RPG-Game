@@ -17,7 +17,7 @@ class Character: SKSpriteNode {
     
     
     // Status //
-    let sp = CGFloat(5)
+    var sp = CGFloat()
     
     // Move //
     var speedX = CGFloat()
