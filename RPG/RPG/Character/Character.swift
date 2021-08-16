@@ -17,6 +17,8 @@ class Character: SKSpriteNode {
     
     
     // Status //
+    var positionX = CGFloat()
+    var positionY = CGFloat()
     var sp = CGFloat()
     
     // Move //

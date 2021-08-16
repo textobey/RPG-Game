@@ -16,6 +16,10 @@ class GameScene: SKScene {
     var gameData = NSMutableDictionary()
     /// 플레이어
     var player = Character()
+    /// 몬스터 그룹
+    var monsterGroup: [Character] = []
+    /// 몬스터
+    var monster = Character()
     /// 컨트롤베이스
     let controlBase = SKSpriteNode(imageNamed: "ControlBase")
     /// 컨트롤볼
@@ -42,6 +46,7 @@ class GameScene: SKScene {
         let path = Bundle.main.path(forResource: "GameData", ofType: "plist")
         gameData = NSMutableDictionary(contentsOfFile: path!)!
         dataPlayer()
+        dataMonster()
         
         // Controller //
         // 컨트롤 베이스의 위치 지정과 scene에서의 우선 순위를 지정함, 추가로 player와 겹쳐 표시될때를 고려하여 alpha값 부여
