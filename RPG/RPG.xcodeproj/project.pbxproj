@@ -3,75 +3,34 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A603683F26A5590C0089EAE3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A603683E26A5590C0089EAE3 /* AppDelegate.swift */; };
-		A603684126A5590C0089EAE3 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = A603684026A5590C0089EAE3 /* GameScene.sks */; };
-		A603684326A5590C0089EAE3 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = A603684226A5590C0089EAE3 /* Actions.sks */; };
-		A603684526A5590C0089EAE3 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A603684426A5590C0089EAE3 /* GameScene.swift */; };
-		A603684726A5590C0089EAE3 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A603684626A5590C0089EAE3 /* GameViewController.swift */; };
-		A603684A26A5590C0089EAE3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A603684826A5590C0089EAE3 /* Main.storyboard */; };
-		A603684C26A5590D0089EAE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A603684B26A5590D0089EAE3 /* Assets.xcassets */; };
-		A603685626A55FEA0089EAE3 /* Control.swift in Sources */ = {isa = PBXBuildFile; fileRef = A603685526A55FEA0089EAE3 /* Control.swift */; };
-		A603685826A562BE0089EAE3 /* Update.swift in Sources */ = {isa = PBXBuildFile; fileRef = A603685726A562BE0089EAE3 /* Update.swift */; };
-		A607E63726C8F13E005FFBE8 /* GameData.plist in Resources */ = {isa = PBXBuildFile; fileRef = A607E63626C8F13E005FFBE8 /* GameData.plist */; };
-		A607E63A26C8F249005FFBE8 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = A607E63926C8F249005FFBE8 /* Data.swift */; };
-		A62E384626C3FB0300AE28B6 /* Attack_Meteor.atlas in Resources */ = {isa = PBXBuildFile; fileRef = A62E384526C3FB0300AE28B6 /* Attack_Meteor.atlas */; };
-		A62E384826C3FB2300AE28B6 /* Meteor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A62E384726C3FB2300AE28B6 /* Meteor.swift */; };
-		A62E384A26C6573F00AE28B6 /* Delay.swift in Sources */ = {isa = PBXBuildFile; fileRef = A62E384926C6573F00AE28B6 /* Delay.swift */; };
-		A6586AF326BEC40F0021B547 /* RedSwanMoveS.atlas in Resources */ = {isa = PBXBuildFile; fileRef = A6586AEF26BEC40F0021B547 /* RedSwanMoveS.atlas */; };
-		A6586AF426BEC40F0021B547 /* RedSwanMoveW.atlas in Resources */ = {isa = PBXBuildFile; fileRef = A6586AF026BEC40F0021B547 /* RedSwanMoveW.atlas */; };
-		A6586AF526BEC40F0021B547 /* RedSwanMoveN.atlas in Resources */ = {isa = PBXBuildFile; fileRef = A6586AF126BEC40F0021B547 /* RedSwanMoveN.atlas */; };
-		A6586AF626BEC40F0021B547 /* RedSwanMoveE.atlas in Resources */ = {isa = PBXBuildFile; fileRef = A6586AF226BEC40F0021B547 /* RedSwanMoveE.atlas */; };
-		A6586AFA26BFAD8F0021B547 /* Attack_Melee.atlas in Resources */ = {isa = PBXBuildFile; fileRef = A6586AF926BFAD8F0021B547 /* Attack_Melee.atlas */; };
-		A6586AFD26BFAEF10021B547 /* Melee.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6586AFC26BFAEF10021B547 /* Melee.swift */; };
-		A6586AFF26BFB1DA0021B547 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6586AFE26BFB1DA0021B547 /* Item.swift */; };
-		A6805F0F26CA607900571079 /* ArcherMoveW.atlas in Resources */ = {isa = PBXBuildFile; fileRef = A6805F0B26CA607900571079 /* ArcherMoveW.atlas */; };
-		A6805F1026CA607900571079 /* ArcherMoveE.atlas in Resources */ = {isa = PBXBuildFile; fileRef = A6805F0C26CA607900571079 /* ArcherMoveE.atlas */; };
-		A6805F1126CA607900571079 /* ArcherMoveN.atlas in Resources */ = {isa = PBXBuildFile; fileRef = A6805F0D26CA607900571079 /* ArcherMoveN.atlas */; };
-		A6805F1226CA607900571079 /* ArcherMoveS.atlas in Resources */ = {isa = PBXBuildFile; fileRef = A6805F0E26CA607900571079 /* ArcherMoveS.atlas */; };
-		A6DE430526B6C07E0091EB7F /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6DE430426B6C07E0091EB7F /* Character.swift */; };
-		A6DE430826B6DD6B0091EB7F /* Share.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6DE430726B6DD6B0091EB7F /* Share.swift */; };
-		A6DE430B26B6DE720091EB7F /* Move.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6DE430A26B6DE720091EB7F /* Move.swift */; };
+		A62823E127AD36F600C26387 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A62823E027AD36F600C26387 /* AppDelegate.swift */; };
+		A62823E327AD36F600C26387 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = A62823E227AD36F600C26387 /* GameScene.sks */; };
+		A62823E527AD36F600C26387 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = A62823E427AD36F600C26387 /* Actions.sks */; };
+		A62823E727AD36F600C26387 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A62823E627AD36F600C26387 /* GameScene.swift */; };
+		A62823E927AD36F600C26387 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A62823E827AD36F600C26387 /* GameViewController.swift */; };
+		A62823EC27AD36F600C26387 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A62823EA27AD36F600C26387 /* Main.storyboard */; };
+		A62823EE27AD36F600C26387 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A62823ED27AD36F600C26387 /* Assets.xcassets */; };
+		A62823F127AD36F600C26387 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A62823EF27AD36F600C26387 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A603683B26A5590C0089EAE3 /* RPG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RPG.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A603683E26A5590C0089EAE3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A603684026A5590C0089EAE3 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		A603684226A5590C0089EAE3 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
-		A603684426A5590C0089EAE3 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
-		A603684626A5590C0089EAE3 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
-		A603684926A5590C0089EAE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A603684B26A5590D0089EAE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A603684D26A5590D0089EAE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A603685526A55FEA0089EAE3 /* Control.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Control.swift; sourceTree = "<group>"; };
-		A603685726A562BE0089EAE3 /* Update.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Update.swift; sourceTree = "<group>"; };
-		A607E63626C8F13E005FFBE8 /* GameData.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = GameData.plist; sourceTree = "<group>"; };
-		A607E63926C8F249005FFBE8 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
-		A62E384526C3FB0300AE28B6 /* Attack_Meteor.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Attack_Meteor.atlas; sourceTree = "<group>"; };
-		A62E384726C3FB2300AE28B6 /* Meteor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meteor.swift; sourceTree = "<group>"; };
-		A62E384926C6573F00AE28B6 /* Delay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Delay.swift; sourceTree = "<group>"; };
-		A6586AEF26BEC40F0021B547 /* RedSwanMoveS.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = RedSwanMoveS.atlas; sourceTree = "<group>"; };
-		A6586AF026BEC40F0021B547 /* RedSwanMoveW.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = RedSwanMoveW.atlas; sourceTree = "<group>"; };
-		A6586AF126BEC40F0021B547 /* RedSwanMoveN.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = RedSwanMoveN.atlas; sourceTree = "<group>"; };
-		A6586AF226BEC40F0021B547 /* RedSwanMoveE.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = RedSwanMoveE.atlas; sourceTree = "<group>"; };
-		A6586AF926BFAD8F0021B547 /* Attack_Melee.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Attack_Melee.atlas; sourceTree = "<group>"; };
-		A6586AFC26BFAEF10021B547 /* Melee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Melee.swift; sourceTree = "<group>"; };
-		A6586AFE26BFB1DA0021B547 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
-		A6805F0B26CA607900571079 /* ArcherMoveW.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = ArcherMoveW.atlas; sourceTree = "<group>"; };
-		A6805F0C26CA607900571079 /* ArcherMoveE.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = ArcherMoveE.atlas; sourceTree = "<group>"; };
-		A6805F0D26CA607900571079 /* ArcherMoveN.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = ArcherMoveN.atlas; sourceTree = "<group>"; };
-		A6805F0E26CA607900571079 /* ArcherMoveS.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = ArcherMoveS.atlas; sourceTree = "<group>"; };
-		A6DE430426B6C07E0091EB7F /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
-		A6DE430726B6DD6B0091EB7F /* Share.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Share.swift; sourceTree = "<group>"; };
-		A6DE430A26B6DE720091EB7F /* Move.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Move.swift; sourceTree = "<group>"; };
+		A62823DD27AD36F600C26387 /* RPG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RPG.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A62823E027AD36F600C26387 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A62823E227AD36F600C26387 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		A62823E427AD36F600C26387 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		A62823E627AD36F600C26387 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		A62823E827AD36F600C26387 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		A62823EB27AD36F600C26387 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A62823ED27AD36F600C26387 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A62823F027AD36F600C26387 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A603683826A5590C0089EAE3 /* Frameworks */ = {
+		A62823DA27AD36F600C26387 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -81,164 +40,47 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A603683226A5590C0089EAE3 = {
+		A62823D427AD36F600C26387 = {
 			isa = PBXGroup;
 			children = (
-				A603683D26A5590C0089EAE3 /* RPG */,
-				A603683C26A5590C0089EAE3 /* Products */,
+				A62823DF27AD36F600C26387 /* RPG */,
+				A62823DE27AD36F600C26387 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		A603683C26A5590C0089EAE3 /* Products */ = {
+		A62823DE27AD36F600C26387 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A603683B26A5590C0089EAE3 /* RPG.app */,
+				A62823DD27AD36F600C26387 /* RPG.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A603683D26A5590C0089EAE3 /* RPG */ = {
+		A62823DF27AD36F600C26387 /* RPG */ = {
 			isa = PBXGroup;
 			children = (
-				A603685426A55C7F0089EAE3 /* GameScene */,
-				A603685326A55C660089EAE3 /* Map */,
-				A6DE430326B6C0550091EB7F /* Character */,
-				A6DE430626B6DD420091EB7F /* Supporting File */,
-				A603683E26A5590C0089EAE3 /* AppDelegate.swift */,
-				A603684626A5590C0089EAE3 /* GameViewController.swift */,
-				A6586AEE26BEC3FD0021B547 /* Image */,
-				A603684826A5590C0089EAE3 /* Main.storyboard */,
-				A603684B26A5590D0089EAE3 /* Assets.xcassets */,
-				A603684D26A5590D0089EAE3 /* Info.plist */,
+				A62823E027AD36F600C26387 /* AppDelegate.swift */,
+				A62823E227AD36F600C26387 /* GameScene.sks */,
+				A62823E427AD36F600C26387 /* Actions.sks */,
+				A62823E627AD36F600C26387 /* GameScene.swift */,
+				A62823E827AD36F600C26387 /* GameViewController.swift */,
+				A62823EA27AD36F600C26387 /* Main.storyboard */,
+				A62823ED27AD36F600C26387 /* Assets.xcassets */,
+				A62823EF27AD36F600C26387 /* LaunchScreen.storyboard */,
 			);
 			path = RPG;
-			sourceTree = "<group>";
-		};
-		A603685326A55C660089EAE3 /* Map */ = {
-			isa = PBXGroup;
-			children = (
-				A603684026A5590C0089EAE3 /* GameScene.sks */,
-			);
-			path = Map;
-			sourceTree = "<group>";
-		};
-		A603685426A55C7F0089EAE3 /* GameScene */ = {
-			isa = PBXGroup;
-			children = (
-				A603684426A5590C0089EAE3 /* GameScene.swift */,
-				A603685526A55FEA0089EAE3 /* Control.swift */,
-				A603685726A562BE0089EAE3 /* Update.swift */,
-				A607E63826C8F23E005FFBE8 /* Function */,
-			);
-			path = GameScene;
-			sourceTree = "<group>";
-		};
-		A607E63826C8F23E005FFBE8 /* Function */ = {
-			isa = PBXGroup;
-			children = (
-				A607E63926C8F249005FFBE8 /* Data.swift */,
-			);
-			path = Function;
-			sourceTree = "<group>";
-		};
-		A6586AEE26BEC3FD0021B547 /* Image */ = {
-			isa = PBXGroup;
-			children = (
-				A6586AF826BFAD570021B547 /* Attack */,
-				A6586AF726BFAD3D0021B547 /* Move */,
-			);
-			name = Image;
-			sourceTree = "<group>";
-		};
-		A6586AF726BFAD3D0021B547 /* Move */ = {
-			isa = PBXGroup;
-			children = (
-				A6805F0926CA604B00571079 /* RedSwan */,
-				A6805F0A26CA605B00571079 /* Archer */,
-			);
-			path = Move;
-			sourceTree = "<group>";
-		};
-		A6586AF826BFAD570021B547 /* Attack */ = {
-			isa = PBXGroup;
-			children = (
-				A62E384526C3FB0300AE28B6 /* Attack_Meteor.atlas */,
-				A6586AF926BFAD8F0021B547 /* Attack_Melee.atlas */,
-			);
-			name = Attack;
-			sourceTree = "<group>";
-		};
-		A6586AFB26BFAEE00021B547 /* Attack */ = {
-			isa = PBXGroup;
-			children = (
-				A6586AFC26BFAEF10021B547 /* Melee.swift */,
-				A62E384726C3FB2300AE28B6 /* Meteor.swift */,
-			);
-			path = Attack;
-			sourceTree = "<group>";
-		};
-		A6805F0926CA604B00571079 /* RedSwan */ = {
-			isa = PBXGroup;
-			children = (
-				A6586AF226BEC40F0021B547 /* RedSwanMoveE.atlas */,
-				A6586AF126BEC40F0021B547 /* RedSwanMoveN.atlas */,
-				A6586AEF26BEC40F0021B547 /* RedSwanMoveS.atlas */,
-				A6586AF026BEC40F0021B547 /* RedSwanMoveW.atlas */,
-			);
-			path = RedSwan;
-			sourceTree = "<group>";
-		};
-		A6805F0A26CA605B00571079 /* Archer */ = {
-			isa = PBXGroup;
-			children = (
-				A6805F0C26CA607900571079 /* ArcherMoveE.atlas */,
-				A6805F0D26CA607900571079 /* ArcherMoveN.atlas */,
-				A6805F0E26CA607900571079 /* ArcherMoveS.atlas */,
-				A6805F0B26CA607900571079 /* ArcherMoveW.atlas */,
-			);
-			path = Archer;
-			sourceTree = "<group>";
-		};
-		A6DE430326B6C0550091EB7F /* Character */ = {
-			isa = PBXGroup;
-			children = (
-				A6DE430426B6C07E0091EB7F /* Character.swift */,
-				A6586AFB26BFAEE00021B547 /* Attack */,
-				A6DE430926B6DE5B0091EB7F /* Function */,
-			);
-			path = Character;
-			sourceTree = "<group>";
-		};
-		A6DE430626B6DD420091EB7F /* Supporting File */ = {
-			isa = PBXGroup;
-			children = (
-				A603684226A5590C0089EAE3 /* Actions.sks */,
-				A6DE430726B6DD6B0091EB7F /* Share.swift */,
-				A607E63626C8F13E005FFBE8 /* GameData.plist */,
-			);
-			path = "Supporting File";
-			sourceTree = "<group>";
-		};
-		A6DE430926B6DE5B0091EB7F /* Function */ = {
-			isa = PBXGroup;
-			children = (
-				A6DE430A26B6DE720091EB7F /* Move.swift */,
-				A6586AFE26BFB1DA0021B547 /* Item.swift */,
-				A62E384926C6573F00AE28B6 /* Delay.swift */,
-			);
-			path = Function;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A603683A26A5590C0089EAE3 /* RPG */ = {
+		A62823DC27AD36F600C26387 /* RPG */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A603685026A5590D0089EAE3 /* Build configuration list for PBXNativeTarget "RPG" */;
+			buildConfigurationList = A62823F427AD36F600C26387 /* Build configuration list for PBXNativeTarget "RPG" */;
 			buildPhases = (
-				A603683726A5590C0089EAE3 /* Sources */,
-				A603683826A5590C0089EAE3 /* Frameworks */,
-				A603683926A5590C0089EAE3 /* Resources */,
+				A62823D927AD36F600C26387 /* Sources */,
+				A62823DA27AD36F600C26387 /* Frameworks */,
+				A62823DB27AD36F600C26387 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -246,108 +88,97 @@
 			);
 			name = RPG;
 			productName = RPG;
-			productReference = A603683B26A5590C0089EAE3 /* RPG.app */;
+			productReference = A62823DD27AD36F600C26387 /* RPG.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		A603683326A5590C0089EAE3 /* Project object */ = {
+		A62823D527AD36F600C26387 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1250;
-				LastUpgradeCheck = 1250;
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
 				TargetAttributes = {
-					A603683A26A5590C0089EAE3 = {
-						CreatedOnToolsVersion = 12.5.1;
+					A62823DC27AD36F600C26387 = {
+						CreatedOnToolsVersion = 13.2.1;
 					};
 				};
 			};
-			buildConfigurationList = A603683626A5590C0089EAE3 /* Build configuration list for PBXProject "RPG" */;
-			compatibilityVersion = "Xcode 9.3";
+			buildConfigurationList = A62823D827AD36F600C26387 /* Build configuration list for PBXProject "RPG" */;
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = A603683226A5590C0089EAE3;
-			productRefGroup = A603683C26A5590C0089EAE3 /* Products */;
+			mainGroup = A62823D427AD36F600C26387;
+			productRefGroup = A62823DE27AD36F600C26387 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A603683A26A5590C0089EAE3 /* RPG */,
+				A62823DC27AD36F600C26387 /* RPG */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		A603683926A5590C0089EAE3 /* Resources */ = {
+		A62823DB27AD36F600C26387 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A603684A26A5590C0089EAE3 /* Main.storyboard in Resources */,
-				A6586AF426BEC40F0021B547 /* RedSwanMoveW.atlas in Resources */,
-				A6586AF326BEC40F0021B547 /* RedSwanMoveS.atlas in Resources */,
-				A62E384626C3FB0300AE28B6 /* Attack_Meteor.atlas in Resources */,
-				A6805F1126CA607900571079 /* ArcherMoveN.atlas in Resources */,
-				A6805F1026CA607900571079 /* ArcherMoveE.atlas in Resources */,
-				A603684126A5590C0089EAE3 /* GameScene.sks in Resources */,
-				A6586AF526BEC40F0021B547 /* RedSwanMoveN.atlas in Resources */,
-				A6805F1226CA607900571079 /* ArcherMoveS.atlas in Resources */,
-				A6586AF626BEC40F0021B547 /* RedSwanMoveE.atlas in Resources */,
-				A6805F0F26CA607900571079 /* ArcherMoveW.atlas in Resources */,
-				A6586AFA26BFAD8F0021B547 /* Attack_Melee.atlas in Resources */,
-				A603684C26A5590D0089EAE3 /* Assets.xcassets in Resources */,
-				A607E63726C8F13E005FFBE8 /* GameData.plist in Resources */,
-				A603684326A5590C0089EAE3 /* Actions.sks in Resources */,
+				A62823EC27AD36F600C26387 /* Main.storyboard in Resources */,
+				A62823E327AD36F600C26387 /* GameScene.sks in Resources */,
+				A62823EE27AD36F600C26387 /* Assets.xcassets in Resources */,
+				A62823F127AD36F600C26387 /* LaunchScreen.storyboard in Resources */,
+				A62823E527AD36F600C26387 /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		A603683726A5590C0089EAE3 /* Sources */ = {
+		A62823D927AD36F600C26387 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A603684526A5590C0089EAE3 /* GameScene.swift in Sources */,
-				A62E384826C3FB2300AE28B6 /* Meteor.swift in Sources */,
-				A603685626A55FEA0089EAE3 /* Control.swift in Sources */,
-				A6DE430826B6DD6B0091EB7F /* Share.swift in Sources */,
-				A603685826A562BE0089EAE3 /* Update.swift in Sources */,
-				A6586AFD26BFAEF10021B547 /* Melee.swift in Sources */,
-				A6586AFF26BFB1DA0021B547 /* Item.swift in Sources */,
-				A6DE430B26B6DE720091EB7F /* Move.swift in Sources */,
-				A607E63A26C8F249005FFBE8 /* Data.swift in Sources */,
-				A6DE430526B6C07E0091EB7F /* Character.swift in Sources */,
-				A62E384A26C6573F00AE28B6 /* Delay.swift in Sources */,
-				A603684726A5590C0089EAE3 /* GameViewController.swift in Sources */,
-				A603683F26A5590C0089EAE3 /* AppDelegate.swift in Sources */,
+				A62823E727AD36F600C26387 /* GameScene.swift in Sources */,
+				A62823E927AD36F600C26387 /* GameViewController.swift in Sources */,
+				A62823E127AD36F600C26387 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		A603684826A5590C0089EAE3 /* Main.storyboard */ = {
+		A62823EA27AD36F600C26387 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				A603684926A5590C0089EAE3 /* Base */,
+				A62823EB27AD36F600C26387 /* Base */,
 			);
 			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A62823EF27AD36F600C26387 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A62823F027AD36F600C26387 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		A603684E26A5590D0089EAE3 /* Debug */ = {
+		A62823F227AD36F600C26387 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -392,7 +223,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -402,13 +233,13 @@
 			};
 			name = Debug;
 		};
-		A603684F26A5590D0089EAE3 /* Release */ = {
+		A62823F327AD36F600C26387 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -447,7 +278,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -457,39 +288,57 @@
 			};
 			name = Release;
 		};
-		A603685126A5590D0089EAE3 /* Debug */ = {
+		A62823F527AD36F600C26387 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = HU8RMC793N;
-				INFOPLIST_FILE = RPG/Info.plist;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = kr.textobey.RPG;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		A603685226A5590D0089EAE3 /* Release */ = {
+		A62823F627AD36F600C26387 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = HU8RMC793N;
-				INFOPLIST_FILE = RPG/Info.plist;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = kr.textobey.RPG;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -498,25 +347,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A603683626A5590C0089EAE3 /* Build configuration list for PBXProject "RPG" */ = {
+		A62823D827AD36F600C26387 /* Build configuration list for PBXProject "RPG" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A603684E26A5590D0089EAE3 /* Debug */,
-				A603684F26A5590D0089EAE3 /* Release */,
+				A62823F227AD36F600C26387 /* Debug */,
+				A62823F327AD36F600C26387 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A603685026A5590D0089EAE3 /* Build configuration list for PBXNativeTarget "RPG" */ = {
+		A62823F427AD36F600C26387 /* Build configuration list for PBXNativeTarget "RPG" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A603685126A5590D0089EAE3 /* Debug */,
-				A603685226A5590D0089EAE3 /* Release */,
+				A62823F527AD36F600C26387 /* Debug */,
+				A62823F627AD36F600C26387 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = A603683326A5590C0089EAE3 /* Project object */;
+	rootObject = A62823D527AD36F600C26387 /* Project object */;
 }
